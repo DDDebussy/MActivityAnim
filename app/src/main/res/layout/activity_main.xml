@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_dog"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:src="@mipmap/erha"
+            android:scaleType="centerCrop"
+            android:transitionName="dog"
+            />
+        <ImageView
+            android:id="@+id/img_sun"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@mipmap/sunshine"
+            android:scaleType="centerCrop"
+            android:transitionName="sun"
+            />
+        <ImageView
+            android:id="@+id/img_cat"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/cat"
+            android:scaleType="centerCrop"
+            android:transitionName="cat"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
